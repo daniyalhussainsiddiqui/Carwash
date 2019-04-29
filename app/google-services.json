@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "108599080191",
+    "firebase_url": "https://datab-861e1.firebaseio.com",
+    "project_id": "datab-861e1",
+    "storage_bucket": "datab-861e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108599080191:android:f2d075912f56dcf9",
+        "android_client_info": {
+          "package_name": "com.example.carwash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "108599080191-611vl1jlrgl0f0tjkguvh2v3t1oab7o1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.carwash",
+            "certificate_hash": "ebac2635ad583ac474223b54a7b8fe95ef286a38"
+          }
+        },
+        {
+          "client_id": "108599080191-krjlcb575f43kugl0nrfk7127oc5t7b3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_I-fYUdziUQq5whBdmHNnBB_sUJRaNGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108599080191-krjlcb575f43kugl0nrfk7127oc5t7b3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108599080191:android:7a5b4f2ff9d4e875",
+        "android_client_info": {
+          "package_name": "com.example.myapplicationdb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "108599080191-krjlcb575f43kugl0nrfk7127oc5t7b3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_I-fYUdziUQq5whBdmHNnBB_sUJRaNGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108599080191-krjlcb575f43kugl0nrfk7127oc5t7b3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
