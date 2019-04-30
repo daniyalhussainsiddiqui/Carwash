@@ -116,6 +116,7 @@ public class signIn<button> extends AppCompatActivity {
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if (task.isSuccessful()) {
                                 Toast.makeText(signIn.this, "login", Toast.LENGTH_SHORT).show();
+                                startActivity(new Intent(signIn.this, SelectACar.class));
                             } else
                                 Toast.makeText(signIn.this, task.getException().toString(), Toast.LENGTH_SHORT).show();
                         }

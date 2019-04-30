@@ -37,7 +37,7 @@ public class location extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.select_a_car);
+        setContentView(R.layout.activity_location);
         firebaseDatabase=FirebaseDatabase.getInstance();
         databaseReference=firebaseDatabase.getReference("Locations");
 
@@ -45,10 +45,10 @@ public class location extends AppCompatActivity {
         CaseName = (Spinner) findViewById(R.id.CaseName);
         next = (Button) findViewById(R.id.next);
         selectedCar = (TextView) findViewById(R.id.selectedCar);
-        selectedDate = (TextView) findViewById(R.id.selectedDate);
+        //selectedDate = (TextView) findViewById(R.id.selectedDate);
 
         selectedCar.setText(SelectACar.selectedCar);
-        selectedDate.setText(SelectADate.temp_date_text);
+       // selectedDate.setText(SelectADate.temp_date_text);
 
 
         hmCase = new HashMap<Integer,String>();

@@ -55,7 +55,7 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:background="@drawable/buttondesign"
-        android:text="Login"
+        android:text="Start App"
         android:textColor="@color/white" />
 
     <Button

@@ -6,7 +6,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Add a location"
+        android:text="Add a vehicle"
         android:textSize="24dp"
         android:textColor="@color/white"
         android:gravity="center"
@@ -42,7 +42,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Select a location"
+            android:text="Select a vehicle"
             android:textSize="24dp"
             android:textColor="@color/white"
             android:gravity="center"
